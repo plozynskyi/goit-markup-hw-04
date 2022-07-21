@@ -178,9 +178,7 @@ img {
 }
 
 .envelope:hover .auth-icon-envelope,
-.envelope:focus .auth-icon-envelope,
-.smartphone:hover .auth-icon-smartphone,
-.smartphone:focus .auth-icon-smartphone {
+.smartphone:hover .auth-icon-smartphone {
   fill: var(--accent-color);
 }
 
@@ -190,6 +188,10 @@ img {
 .header-auth-link:focus {
   color: var(--accent-color);
 }
+
+/* .auth-item-envelope:focus .auth-icon-envelope {
+  fill: var(--accent-color);
+} */
 
 .header-auth-link {
   padding: 5px 0;
@@ -414,7 +416,7 @@ img {
   justify-content: center;
   align-items: baseline;
   gap: 10px;
-  background-color: var(--page-bg-color);
+  background-color: #fff;
 }
 
 .team-social-item {
@@ -428,8 +430,12 @@ img {
   height: 44px;
   width: 44px;
   display: block;
+  /* fill: var(--page-bg-color); */
+  /* fill: #afb1b8; */
+}
 
-  fill: #afb1b8;
+.team-social-link:hover .link-social {
+  fill: var(--accent-color);
 }
 
 /* --------------------------Постійні клієнти-------------------------- */
@@ -611,7 +617,7 @@ img {
 .portfolio-block-info {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
-  border-top: none;
+  border-top: 0;
 }
 
 .portfolio-list-title {

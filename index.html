@@ -31,7 +31,7 @@
           >
           <ul class="header-nav-list list">
             <li class="header-nav-item">
-              <a class="header-nav-link link curent" href="./index.html">Студія</a>
+              <a class="header-nav-link link curent" href="./index.html" tabindex="-1">Студія</a>
             </li>
             <li class="header-nav-item">
               <a class="header-nav-link link" href="./portfolio.html">Портфоліо</a>
@@ -44,11 +44,15 @@
         <ul class="header-auth-nav list">
           <li class="header-auth-item envelope">
             <svg class="auth-nav-icon auth-icon-envelope">
-              <use href="./images/studio/svg/sprint.svg#icon-envelope"></use>
+              <use
+                class="auth-icon-envelope"
+                href="./images/studio/svg/sprint.svg#icon-envelope"
+              ></use>
             </svg>
-            <a class="header-auth-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="header-auth-link link auth-item-envelope" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-
           <li class="header-auth-item smartphone">
             <svg class="auth-nav-icon auth-icon-smartphone">
               <use href="./images/studio/svg/sprint.svg#icon-smartphone"></use>
@@ -61,7 +65,7 @@
     <main>
       <!-- Герой -->
       <section class="section-hero hero-bg-img">
-        <div class="container">
+        <div class="container" tabindex="0">
           <h1 class="section-hero-title">Ефективні рішення для<br />вашого бізнесу</h1>
           <button class="section-hero-button" type="button">Замовити послугу</button>
         </div>
