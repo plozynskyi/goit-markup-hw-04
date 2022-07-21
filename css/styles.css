@@ -226,7 +226,7 @@ img {
   max-height: 600px;
   margin: 0 auto;
   background-image: linear-gradient(rgba(0, 91, 187, 0.7), rgba(255, 213, 0, 0.7)),
-    url(../images/studio/background_hero.jpg);
+    url(../images/studio/hero/background_hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
